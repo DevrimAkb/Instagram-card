@@ -1,0 +1,122 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#sidebar-menu {
+    width: 250px;
+    position: fixed;
+    /* Y angle */
+    inset-block: 0;
+    /* X angle */
+    inset-inline-start: 0;
+    border-inline-end: 1px lightgray solid;
+}
+
+.title {
+    padding: 24px 24px 32px 8px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu__list-item a,
+.menu__list-item a:link {
+    padding: 16px 8px;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.menu__list-item a:hover {
+    color: gray;
+}
+
+.menu__list-item-icon--notification::after {
+    content:"";
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    width: 8px;
+    aspect-ratio: 1;
+    border-radius: 4px;
+    background-color: red;
+}
+
+.menu__list-item-icon {
+    margin-right: 16px;
+    font-size: 2rem;
+    position: relative;
+}
+
+#main-content {
+    margin-left: 250px;
+    background-color: lightgray;
+    width: calc(100vw-250px);
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    min-height: 100%;
+    gap: 16px;
+}
+
+.post {
+    display: flex;
+    background-color: white;
+    border: gray solid 1px;
+    width: 400px;
+    height: 600px;
+    border-radius: 4px;
+}
+
+.userinfo {
+    display: flex;
+    border: 2px solid black;
+    height: 40px;
+}
+
+.user-icon {
+    background-color: aqua;
+    width: 28px;
+    height: 28px;
+    border-radius: 15px;
+    position: absolute;
+    margin: 5px;
+}
+
+.username {
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.dots {
+    /* margin-left: 225px;
+    margin-top: 5px;
+    margin-right: 5px; */
+    margin: 5px 5px 0px 225px;
+}
+
+img {
+}
+
+.pic.content {
+    background: url(https://picsum.photos/200/200);
+    display: inline-block
+}
+
+

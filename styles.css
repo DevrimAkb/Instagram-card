@@ -123,6 +123,7 @@ img {
     font-size: 23px;
     margin-top: 0;
     display: flex;
+    justify-content: center;
     gap: 10px;
     /* border: 1px solid black; */
     color: darkgray; 
@@ -130,6 +131,7 @@ img {
 
 .like {
     margin-left: 5px;
+    font-size: 30px;
 }
 
 .save {

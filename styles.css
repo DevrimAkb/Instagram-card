@@ -75,17 +75,16 @@
 }
 
 .post {
-    display: flex;
     background-color: white;
     border: gray solid 1px;
     width: 400px;
-    height: 600px;
+    height: 100%;
     border-radius: 4px;
 }
 
 .userinfo {
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 40px;
 }
 
@@ -100,7 +99,7 @@
 
 .username {
     margin-left: 70px;
-    margin-top: 10px;
+    margin-top: 13px;
     font-size: small;
 }
 
@@ -108,15 +107,82 @@
     /* margin-left: 225px;
     margin-top: 5px;
     margin-right: 5px; */
-    margin: 5px 5px 0px 225px;
+    margin: 6px 5px 0px 225px;
 }
 
 img {
+    width: 100%;
 }
 
 .pic.content {
-    background: url(https://picsum.photos/200/200);
-    display: inline-block
+    /* display: block; */
+    /* margin-bottom: 0; */
+}
+
+.post-like-comment-share-save {
+    font-size: 23px;
+    margin-top: 0;
+    display: flex;
+    gap: 10px;
+    border: 1px solid black;
+    color: darkgray; 
+}
+
+.like {
+    margin-left: 5px;
+}
+
+.save {
+    margin-left: 275px;
+}
+
+.user{
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 7px;
+    margin-right: 8px;
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+
+.user-text {
+    font-size: 12px;
+    font-weight: 100;
+}
+.more {
+    color: gray;
+}
+
+.hours-ago {
+    font-size: 10px;
+}
+
+.see-translation {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.comment-section {
+    margin-top: 10px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.smiley {
+    font-size: 33px;
+    margin-right: 2px;
+}
+
+input {
+    height: 30px;
+    margin-top: 8px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    width: 100%;
 }
 
 

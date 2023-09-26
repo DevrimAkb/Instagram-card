@@ -199,7 +199,7 @@ img {
 
 #submit {
     width: 40px;
-    /* height: 30px; */
+    height: 20px;
     /* background-color: aqua; */
     position: end;
     font-family: sans-serif;
@@ -207,6 +207,7 @@ img {
     border: none;
     color: lightblue;
     background-color: white;
+    margin-top: 5px;
     margin-right: 7px; 
     border-radius: 30%;
     opacity: .75;
